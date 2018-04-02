@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cp nginx.conf /etc/nginx/nginx.conf
+cp app.service /etc/systemd/system/app.service
+nginx -s reload
