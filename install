@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp worker/nginx.conf /etc/nginx/nginx.conf
+cp worker/app.service /etc/systemd/system/app.service
